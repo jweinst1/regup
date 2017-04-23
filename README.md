@@ -1,12 +1,12 @@
-#Regup
+# Regup
 
 A nifty regex and string search engine for Scala.
 
-##Installation
+## Installation
 
-Regup is a scala package built with sbt. You can find the package under src/main/scala/regup.
+Regup is a scala package built with sbt. You can find the package under `src/main/scala/regup`.
 
-##Usage
+## Usage
 
 The documentation can be found here.
 
