@@ -1,6 +1,6 @@
 # Regup
 
-A nifty regex and string search engine for Scala.
+A nifty SVG drawing library in Scala
 
 ## Installation
 
@@ -10,4 +10,4 @@ Regup is a scala package built with sbt. You can find the package under `src/mai
 
 The documentation can be found here.
 
-Regup makes great use of scala closures and case classes to simulate the automata needed to parse regular languages.
+Regup makes drawing SVG paths and shapes easy. You can treat SVG as data and other abstractions

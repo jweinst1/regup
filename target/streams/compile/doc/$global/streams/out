@@ -6,6 +6,8 @@
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes:/Users/Josh/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
-[0m[[0mdebug[0m] [0m	dummy_4a4b8fd0[0m
-[0m[[0mdebug[0m] [0m	/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala[0m
+[0m[[0mdebug[0m] [0m	dummy_58ebaf47[0m
+[0m[[0mdebug[0m] [0m	/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgobj.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala[0m
 [0m[[0minfo[0m] [0mMain Scala API documentation successful.[0m

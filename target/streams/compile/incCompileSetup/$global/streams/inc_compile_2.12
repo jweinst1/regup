@@ -19,17 +19,30 @@ name hashing:
 1 items
 0 -> true
 products:
-4 items
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> /Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/EndNode$.class
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> /Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/EndNode.class
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> /Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/RegNode.class
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> /Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/CharIter.class
+15 items
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> /Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/ClosePath$.class
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> /Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/ClosePath.class
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> /Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/HLineTo$.class
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> /Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/HLineTo.class
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> /Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/LineTo$.class
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> /Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/LineTo.class
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> /Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/MoveTo$.class
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> /Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/MoveTo.class
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> /Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/Path.class
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> /Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/VLineTo$.class
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> /Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/VLineTo.class
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgobj.scala -> /Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/SvgObj.class
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgobj.scala -> /Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/SvgPath.class
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> /Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/SvgUtils$.class
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> /Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/SvgUtils.class
 binary dependencies:
-4 items
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> /Users/Josh/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> /Users/Josh/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+6 items
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> /Users/Josh/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgobj.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgobj.scala -> /Users/Josh/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> /Users/Josh/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -47,82 +60,128 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-4 items
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> regup.EndNode
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> regup.EndNode$
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> regup.RegNode
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> regup.CharIter
+15 items
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> regup.ClosePath
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> regup.ClosePath$
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> regup.HLineTo
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> regup.HLineTo$
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> regup.LineTo
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> regup.LineTo$
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> regup.MoveTo
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> regup.MoveTo$
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> regup.Path
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> regup.VLineTo
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> regup.VLineTo$
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgobj.scala -> regup.SvgObj
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgobj.scala -> regup.SvgPath
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> regup.SvgUtils
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> regup.SvgUtils$
 used names:
-59 items
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> &&
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> <init>
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> ==
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> AbstractFunction0
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> Any
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> AnyRef
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> Boolean
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> EndNode
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> IndexOutOfBoundsException
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> Int
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> Iterator
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> Nothing
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> Object
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> Predef
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> Product
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> RegNode
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> ScalaRunTime
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> Serializable
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> String
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> T
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> T0
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> _hashCode
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> _root_
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> _toString
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> asInstanceOf
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> isInstanceOf
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> package
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> regup
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> runtime
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> scala
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> toString
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> typedProductIterator
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> +
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> <init>
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> ==
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> AnyRef
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> Boolean
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> Char
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> CharIter
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> Int
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> Nothing
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> Object
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> Predef
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> String
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> StringOps
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> Unit
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> apply
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> augmentString
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> check
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> done
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> done_=
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> hold
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> index
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> index_=
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> input
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> length
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> limit
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> regup
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> scala
+82 items
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> &&
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> <init>
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> <repeated>
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> ==
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> A
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> AbstractFunction0
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> AbstractFunction2
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> AbstractFunction3
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> Any
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> AnyRef
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> Boolean
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> ClosePath
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> HLineTo
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> IndexOutOfBoundsException
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> Int
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> Iterator
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> LineTo
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> MoveTo
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> None
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> Nothing
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> Object
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> Option
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> Path
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> Predef
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> Product
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> ScalaRunTime
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> Serializable
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> Some
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> Statics
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> String
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> StringContext
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> T
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> T0
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> T1
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> T2
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> T3
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> Tuple2
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> Tuple3
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> VLineTo
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> _hashCode
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> _root_
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> anyHash
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> asInstanceOf
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> eq
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> finalizeHash
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> isInstanceOf
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> mix
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> next
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> package
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> regup
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> runtime
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> s
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> scala
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> toString
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> typedProductIterator
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> x
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> y
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> ||
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgobj.scala -> AnyRef
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgobj.scala -> Array
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgobj.scala -> Char
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgobj.scala -> Int
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgobj.scala -> Predef
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgobj.scala -> String
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgobj.scala -> regup
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgobj.scala -> scala
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> <init>
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> <repeated>
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> Any
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> AnyRef
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> Int
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> Object
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> Predef
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> String
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> StringContext
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> SvgUtils
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> height
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> input
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> regup
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> s
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> scala
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> width
 product stamps:
-4 items
-/Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/CharIter.class -> lastModified(1492928729000)
-/Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/EndNode$.class -> lastModified(1492909562000)
-/Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/EndNode.class -> lastModified(1492909562000)
-/Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/RegNode.class -> lastModified(1492909562000)
+15 items
+/Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/ClosePath$.class -> lastModified(1493079144000)
+/Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/ClosePath.class -> lastModified(1493079144000)
+/Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/HLineTo$.class -> lastModified(1493079144000)
+/Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/HLineTo.class -> lastModified(1493079144000)
+/Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/LineTo$.class -> lastModified(1493079144000)
+/Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/LineTo.class -> lastModified(1493079144000)
+/Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/MoveTo$.class -> lastModified(1493079144000)
+/Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/MoveTo.class -> lastModified(1493079144000)
+/Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/Path.class -> lastModified(1493079144000)
+/Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/SvgObj.class -> lastModified(1493078417000)
+/Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/SvgPath.class -> lastModified(1493078417000)
+/Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/SvgUtils$.class -> lastModified(1493079257000)
+/Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/SvgUtils.class -> lastModified(1493079257000)
+/Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/VLineTo$.class -> lastModified(1493079144000)
+/Users/Josh/scalaprojects/regup/target/scala-2.12/classes/regup/VLineTo.class -> lastModified(1493079144000)
 source stamps:
-2 items
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> hash(c8b862c93e928ce735975fe955d4c3a5dc5a2977)
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> hash(8543837a860fa51faf8a4a5b1ec79ba1127a1a48)
+3 items
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> hash(ad10933e037eecc757728aefa7c3e24e8fe394a3)
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgobj.scala -> hash(f3cde8cc0f3bb2fa5be981823e625942d4ae8790)
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> hash(5895ab3960efe55c09b712148e8c0cfe612e4338)
 binary stamps:
 2 items
 /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1489567893000)
@@ -130,24 +189,34 @@ binary stamps:
 class names:
 2 items
 /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
-/Users/Josh/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar -> scala.Int
+/Users/Josh/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar -> scala.StringContext$
 internal apis:
-2 items
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwBaQlrgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAec3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwFQsnnHQABm5vdGlmeXNxAH4ADDOw69R0AAR3YWl0c3EAfgAM85LmU3QADSRhc0luc3RhbmNlT2ZzcQB+AAyVKJKOdAAMcHJvZHVjdEFyaXR5c3EAfgAMaBeuiXQABmVxdWFsc3NxAH4ADB0UMil0AAdFbmROb2Rlc3EAfgAMHwn3tnQADGFzSW5zdGFuY2VPZnNxAH4ADHCUndF0AAxzeW5jaHJvbml6ZWRzcQB+AAwmUZwSdAANJGlzSW5zdGFuY2VPZnNxAH4ADKE86aZ0AAhjYW5FcXVhbHNxAH4ADJUv0wl0AA1wcm9kdWN0UHJlZml4c3EAfgAMXt9pIXQACW5vdGlmeUFsbHNxAH4ADBO0kgZ0AAxpc0luc3RhbmNlT2ZzcQB+AAz6FQc5dAAGPGluaXQ+c3EAfgAMBNqEDHQABWFwcGx5c3EAfgAMRkxGGnQAAj09c3EAfgAMv2M80nQABWNsb25lc3EAfgAMvZxjSnQABiRpbml0JHNxAH4ADNABwUl0AARjb3B5c3EAfgAMnATshXQACHRvU3RyaW5nc3EAfgAM4sHzxnQAAiE9c3EAfgAM/SzR6XQACGdldENsYXNzc3EAfgAMa8tDK3QAAm5lc3EAfgAMEPpjDnQAB1JlZ05vZGVzcQB+AAxMAOWkdAACZXFzcQB+AAwwflwAdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAM0S+nTXQAAiMjc3EAfgAMtdq/13QACGZpbmFsaXplc3EAfgAMC1Ev/XQADnByb2R1Y3RFbGVtZW50c3EAfgAMcbLLPHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AU3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAXQADXJlZ3VwLlJlZ05vZGV1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4Aa3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBTTAAJaW5oZXJpdGVkcQB+AFNMAAdwYXJlbnRzcQB+AFN4cQB+AHBzcQB+AGt1cQB+AE4AAAAAc3EAfgBrdXEAfgBOAAAAAHNxAH4Aa3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ab3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ab3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AiHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AiXNxAH4AfHQAA0FueXNxAH4AgHNxAH4Ag3VxAH4AhgAAAAJzcQB+AIh0AAVzY2FsYXEAfgCPc3EAfgBQcQB+AF11cQB+AF4AAAAAc3EAfgBgAHQADXJlZ3VwLkVuZE5vZGV1cQB+AGMAAAAAcQB+AGd1cQB+AGkAAAAAc3EAfgBrcQB+AHFzcQB+AGtzcQB+AHNzcQB+AGt1cQB+AE4AAAAAc3EAfgBrdXEAfgBOAAAAAHNxAH4Aa3VxAH4AegAAAAdzcQB+AHx0AAxTZXJpYWxpemFibGVzcQB+AIBzcQB+AIN1cQB+AIYAAAACc3EAfgCIcQB+AJZxAH4Aj3NxAH4AfHEAfgCnc3EAfgCAc3EAfgCDdXEAfgCGAAAAA3NxAH4AiHEAfgCLc3EAfgCIdAACaW9xAH4Aj3NxAH4AfHQAB1Byb2R1Y3RxAH4AqHNxAH4AfHQABkVxdWFsc3EAfgCoc3EAfgB8dAAHUmVnTm9kZXNxAH4AgHNxAH4Ag3VxAH4AhgAAAAJzcQB+AIh0AAVyZWd1cHEAfgCPc3EAfgB8cQB+AH9zcQB+AIBzcQB+AIN1cQB+AIYAAAADc3EAfgCIcQB+AItzcQB+AIhxAH4AjXEAfgCPc3EAfgB8cQB+AJFxAH4AqHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABXJlZ3Vwc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFbmFgEh3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADkvVXNlcnMvSm9zaC9zY2FsYXByb2plY3RzL3JlZ3VwL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTIuGLJPpKM5zWXX+lV1MOl3Fopdw==
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw1B9JVAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAZc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwnEZtN3QABm5vdGlmeXNxAH4ADO7NAA50AAR3YWl0c3EAfgAM1o9te3QADSRhc0luc3RhbmNlT2ZzcQB+AAx+lqBWdAAGZXF1YWxzc3EAfgAMqsBWH3QADGFzSW5zdGFuY2VPZnNxAH4ADM3cxEJ0AAxzeW5jaHJvbml6ZWRzcQB+AAwTKYu6dAANJGlzSW5zdGFuY2VPZnNxAH4ADBhClPN0AAlub3RpZnlBbGxzcQB+AAwwtKlzdAAMaXNJbnN0YW5jZU9mc3EAfgAMzY7QzHQABjxpbml0PnNxAH4ADAiFNg10AAVhcHBseXNxAH4ADDTM7J10AAI9PXNxAH4ADEsqjBN0AAVjbG9uZXNxAH4ADLJvCAN0AARkb25lc3EAfgAMDpPz8nQACHRvU3RyaW5nc3EAfgAM86a82HQAAiE9c3EAfgAMWQjrE3QACGdldENsYXNzc3EAfgAMbBf+GHQAAm5lc3EAfgAMLMe1RHQABWxpbWl0c3EAfgAM1+akQnQAAmVxc3EAfgAMcLK5VXQAAiMjc3EAfgAMsR/XGXQACGZpbmFsaXplc3EAfgAMQfacg3QABWluZGV4c3EAfgAMnkmWjXQACGhhc2hDb2Rlc3EAfgAMc+kAznQACENoYXJJdGVyc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ASXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQADnJlZ3VwLkNoYXJJdGVydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ASUwACWluaGVyaXRlZHEAfgBJTAAHcGFyZW50c3EAfgBJeHEAfgBmc3EAfgBhdXEAfgBEAAAAAHNxAH4AYXVxAH4ARAAAAABzcQB+AGF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGV0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGVzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AH50AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AH9zcQB+AHJ0AANBbnlzcQB+AHZzcQB+AHl1cQB+AHwAAAACc3EAfgB+dAAFc2NhbGFxAH4AhXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABXJlZ3Vwc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFbmXx7yXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADkvVXNlcnMvSm9zaC9zY2FsYXByb2plY3RzL3JlZ3VwL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSFQ4N6hg+lH6+KSlsex5uhEnoaSA==
+3 items
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwTrWEnwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAnc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwZAGdYXQABm5vdGlmeXNxAH4ADP30ltd0AAZNb3ZlVG9zcQB+AAwApzs/dAABeHNxAH4ADEjgwxd0AAR3YWl0c3EAfgAMJoZDPHQADmNvcHkkZGVmYXVsdCQyc3EAfgAM/4p4GXQADSRhc0luc3RhbmNlT2ZzcQB+AAy+cChfdAAJQ2xvc2VQYXRoc3EAfgAMy5n1I3QADHByb2R1Y3RBcml0eXNxAH4ADN9T2i90AAZlcXVhbHNzcQB+AAzq32MpdAABeXNxAH4ADIC9Wzt0AARQYXRoc3EAfgAMqbiZGHQADGFzSW5zdGFuY2VPZnNxAH4ADJZQbex0AAxzeW5jaHJvbml6ZWRzcQB+AAwfYflIdAANJGlzSW5zdGFuY2VPZnNxAH4ADCwCqpx0AAhjYW5FcXVhbHNxAH4ADLqbjfB0AA1wcm9kdWN0UHJlZml4c3EAfgAMBIwoFnQACW5vdGlmeUFsbHNxAH4ADFir7IZ0AAxpc0luc3RhbmNlT2ZzcQB+AAxytYDydAAGPGluaXQ+c3EAfgAMwpWeC3QAAj09c3EAfgAMbsZrUnQAB0hMaW5lVG9zcQB+AAz3+od2dAAFY2xvbmVzcQB+AAwA+KOwdAAGTGluZVRvc3EAfgAMf+lFtXQABiRpbml0JHNxAH4ADFvbSS90AARuZXh0c3EAfgAMKLKM4HQADmNvcHkkZGVmYXVsdCQzc3EAfgAM7wpVwXQABGNvcHlzcQB+AAwnwrVxdAAIdG9TdHJpbmdzcQB+AAyvRHQhdAAHVkxpbmVUb3NxAH4ADIkjNXp0AAIhPXNxAH4ADOQPlkZ0AAhnZXRDbGFzc3NxAH4ADNugCYJ0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADMV72bd0AAJuZXNxAH4ADHZG8IV0AAJlcXNxAH4ADPXZT5B0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAyLub3DdAACIyNzcQB+AAxHc0zudAAIZmluYWxpemVzcQB+AAz5ihYodAAOcHJvZHVjdEVsZW1lbnRzcQB+AAxLk512dAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAAGc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBleHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHABdAAKcmVndXAuUGF0aHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgB9c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGVMAAlpbmhlcml0ZWRxAH4AZUwAB3BhcmVudHNxAH4AZXhxAH4AgnNxAH4AfXVxAH4AYAAAAABzcQB+AH11cQB+AGAAAAAAc3EAfgB9dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCBdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCBc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCadAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCbc3EAfgCOdAADQW55c3EAfgCSc3EAfgCVdXEAfgCYAAAAAnNxAH4AmnQABXNjYWxhcQB+AKFzcQB+AGJxAH4Ab3VxAH4AcAAAAABzcQB+AHIAdAAPcmVndXAuQ2xvc2VQYXRodXEAfgB1AAAAAHEAfgB5dXEAfgB7AAAAAHNxAH4AfXEAfgCDc3EAfgB9c3EAfgCFc3EAfgB9dXEAfgBgAAAAAHNxAH4AfXVxAH4AYAAAAABzcQB+AH11cQB+AIwAAAAHc3EAfgCOdAAMU2VyaWFsaXphYmxlc3EAfgCSc3EAfgCVdXEAfgCYAAAAAnNxAH4AmnEAfgCocQB+AKFzcQB+AI5xAH4AuXNxAH4AknNxAH4AlXVxAH4AmAAAAANzcQB+AJpxAH4AnXNxAH4AmnQAAmlvcQB+AKFzcQB+AI50AAdQcm9kdWN0cQB+ALpzcQB+AI50AAZFcXVhbHNxAH4AunNxAH4AjnQABFBhdGhzcQB+AJJzcQB+AJV1cQB+AJgAAAACc3EAfgCadAAFcmVndXBxAH4AoXNxAH4AjnEAfgCRc3EAfgCSc3EAfgCVdXEAfgCYAAAAA3NxAH4AmnEAfgCdc3EAfgCacQB+AJ9xAH4AoXNxAH4AjnEAfgCjcQB+ALpzcQB+AGJxAH4Ab3VxAH4AcAAAAABzcQB+AHIAdAAMcmVndXAuTW92ZVRvdXEAfgB1AAAAAHEAfgB5dXEAfgB7AAAAAHNxAH4AfXEAfgCDc3EAfgB9c3EAfgCFc3EAfgB9dXEAfgBgAAAAAHNxAH4AfXVxAH4AYAAAAABzcQB+AH11cQB+AIwAAAAHc3EAfgCOcQB+ALlzcQB+AJJzcQB+AJV1cQB+AJgAAAACc3EAfgCacQB+AKhxAH4AoXNxAH4AjnEAfgC5c3EAfgCSc3EAfgCVdXEAfgCYAAAAA3NxAH4AmnEAfgCdc3EAfgCadAACaW9xAH4AoXNxAH4AjnEAfgDGcQB+AOdzcQB+AI50AAZFcXVhbHNxAH4A53NxAH4AjnQABFBhdGhzcQB+AJJzcQB+AJV1cQB+AJgAAAACc3EAfgCadAAFcmVndXBxAH4AoXNxAH4AjnEAfgCRc3EAfgCSc3EAfgCVdXEAfgCYAAAAA3NxAH4AmnEAfgCdc3EAfgCacQB+AJ9xAH4AoXNxAH4AjnEAfgCjcQB+AOdzcQB+AGJxAH4Ab3VxAH4AcAAAAABzcQB+AHIAdAAMcmVndXAuTGluZVRvdXEAfgB1AAAAAHEAfgB5dXEAfgB7AAAAAHNxAH4AfXEAfgCDc3EAfgB9c3EAfgCFc3EAfgB9dXEAfgBgAAAAAHNxAH4AfXVxAH4AYAAAAABzcQB+AH11cQB+AIwAAAAHc3EAfgCOcQB+ALlzcQB+AJJzcQB+AJV1cQB+AJgAAAACc3EAfgCacQB+AKhxAH4AoXNxAH4AjnEAfgC5c3EAfgCSc3EAfgCVdXEAfgCYAAAAA3NxAH4AmnEAfgCdc3EAfgCadAACaW9xAH4AoXNxAH4AjnEAfgDGcQB+ARNzcQB+AI50AAZFcXVhbHNxAH4BE3NxAH4AjnQABFBhdGhzcQB+AJJzcQB+AJV1cQB+AJgAAAACc3EAfgCadAAFcmVndXBxAH4AoXNxAH4AjnEAfgCRc3EAfgCSc3EAfgCVdXEAfgCYAAAAA3NxAH4AmnEAfgCdc3EAfgCacQB+AJ9xAH4AoXNxAH4AjnEAfgCjcQB+ARNzcQB+AGJxAH4Ab3VxAH4AcAAAAABzcQB+AHIAdAANcmVndXAuVkxpbmVUb3VxAH4AdQAAAABxAH4AeXVxAH4AewAAAABzcQB+AH1xAH4Ag3NxAH4AfXNxAH4AhXNxAH4AfXVxAH4AYAAAAABzcQB+AH11cQB+AGAAAAAAc3EAfgB9dXEAfgCMAAAAB3NxAH4AjnEAfgC5c3EAfgCSc3EAfgCVdXEAfgCYAAAAAnNxAH4AmnEAfgCocQB+AKFzcQB+AI5xAH4AuXNxAH4AknNxAH4AlXVxAH4AmAAAAANzcQB+AJpxAH4AnXNxAH4AmnQAAmlvcQB+AKFzcQB+AI5xAH4AxnEAfgE/c3EAfgCOdAAGRXF1YWxzcQB+AT9zcQB+AI50AARQYXRoc3EAfgCSc3EAfgCVdXEAfgCYAAAAAnNxAH4AmnQABXJlZ3VwcQB+AKFzcQB+AI5xAH4AkXNxAH4AknNxAH4AlXVxAH4AmAAAAANzcQB+AJpxAH4AnXNxAH4AmnEAfgCfcQB+AKFzcQB+AI5xAH4Ao3EAfgE/c3EAfgBicQB+AG91cQB+AHAAAAAAc3EAfgByAHQADXJlZ3VwLkhMaW5lVG91cQB+AHUAAAAAcQB+AHl1cQB+AHsAAAAAc3EAfgB9cQB+AINzcQB+AH1zcQB+AIVzcQB+AH11cQB+AGAAAAAAc3EAfgB9dXEAfgBgAAAAAHNxAH4AfXVxAH4AjAAAAAdzcQB+AI5xAH4AuXNxAH4AknNxAH4AlXVxAH4AmAAAAAJzcQB+AJpxAH4AqHEAfgChc3EAfgCOcQB+ALlzcQB+AJJzcQB+AJV1cQB+AJgAAAADc3EAfgCacQB+AJ1zcQB+AJp0AAJpb3EAfgChc3EAfgCOcQB+AMZxAH4Ba3NxAH4AjnQABkVxdWFsc3EAfgFrc3EAfgCOdAAEUGF0aHNxAH4AknNxAH4AlXVxAH4AmAAAAAJzcQB+AJp0AAVyZWd1cHEAfgChc3EAfgCOcQB+AJFzcQB+AJJzcQB+AJV1cQB+AJgAAAADc3EAfgCacQB+AJ1zcQB+AJpxAH4An3EAfgChc3EAfgCOcQB+AKNxAH4Ba3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABXJlZ3Vwc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFbonOb/nVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADkvVXNlcnMvSm9zaC9zY2FsYXByb2plY3RzL3JlZ3VwL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABStEJM+A37sx1dyiu+nw+JOj+OUow==
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgobj.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwGWQw0QAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAYc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwelh8r3QABm5vdGlmeXNxAH4ADPfxyHh0AARuYW1lc3EAfgAMe8Zl+nQAB1N2Z1BhdGhzcQB+AAyGCpb3dAAEd2FpdHNxAH4ADODxxYt0AA0kYXNJbnN0YW5jZU9mc3EAfgAMGySusHQABmVxdWFsc3NxAH4ADFnPp7V0AAxhc0luc3RhbmNlT2ZzcQB+AAwlEuwGdAAMc3luY2hyb25pemVkc3EAfgAM6AYbvXQADSRpc0luc3RhbmNlT2ZzcQB+AAyPj/ngdAAHY29tbWFuZHNxAH4ADD8tNhF0AAlub3RpZnlBbGxzcQB+AAysZVCLdAAMaXNJbnN0YW5jZU9mc3EAfgAMqxYucHQAAj09c3EAfgAM9AWfHXQABWNsb25lc3EAfgAMX0p6HnQABnZhbHVlc3NxAH4ADKVw5v90AAh0b1N0cmluZ3NxAH4ADFs0Q4V0AAIhPXNxAH4ADA0xpmp0AAZTdmdPYmpzcQB+AAyJfMMkdAAIZ2V0Q2xhc3NzcQB+AAwqjG2/dAACbmVzcQB+AAydbiYvdAACZXFzcQB+AAzYSB4edAACIyNzcQB+AAxCkhxFdAAIZmluYWxpemVzcQB+AAwYmdCEdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBHeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHABdAAMcmVndXAuU3ZnT2JqdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAFVHJhaXR1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AF9zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AR0wACWluaGVyaXRlZHEAfgBHTAAHcGFyZW50c3EAfgBHeHEAfgBkc3EAfgBfdXEAfgBCAAAAAHNxAH4AX3VxAH4AQgAAAABzcQB+AF91cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGN0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGNzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AHx0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AH1zcQB+AHB0AANBbnlzcQB+AHRzcQB+AHd1cQB+AHoAAAACc3EAfgB8dAAFc2NhbGFxAH4Ag3NxAH4ARHEAfgBRdXEAfgBSAAAAAHNxAH4AVAF0AA1yZWd1cC5TdmdQYXRodXEAfgBXAAAAAHEAfgBbdXEAfgBdAAAAAHNxAH4AX3EAfgBlc3EAfgBfc3EAfgBnc3EAfgBfdXEAfgBCAAAAAHNxAH4AX3VxAH4AQgAAAABzcQB+AF91cQB+AG4AAAACc3EAfgBwcQB+AHNzcQB+AHRzcQB+AHd1cQB+AHoAAAADc3EAfgB8cQB+AH9zcQB+AHxxAH4AgXEAfgCDc3EAfgBwcQB+AIVzcQB+AHRzcQB+AHd1cQB+AHoAAAACc3EAfgB8cQB+AIpxAH4Ag3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABXJlZ3Vwc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFbomiD/nVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADkvVXNlcnMvSm9zaC9zY2FsYXByb2plY3RzL3JlZ3VwL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTzzejMDzuy+lvpgYI+YllC1K6HkA==
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw7+yOeQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwo/UduHQABm5vdGlmeXNxAH4ADNgI87d0AAd3cmFwU3Znc3EAfgAMR60zInQABHdhaXRzcQB+AAygBRHKdAANJGFzSW5zdGFuY2VPZnNxAH4ADEPWNvp0AAZlcXVhbHNzcQB+AAyFjwhJdAAMYXNJbnN0YW5jZU9mc3EAfgAMpvO6nHQADHN5bmNocm9uaXplZHNxAH4ADMZmaJB0AA0kaXNJbnN0YW5jZU9mc3EAfgAMXdmQVXQACW5vdGlmeUFsbHNxAH4ADNhgAa90AAxpc0luc3RhbmNlT2ZzcQB+AAzKuAKydAACPT1zcQB+AAyV/Y2LdAAFY2xvbmVzcQB+AAxBMNDhdAAIU3ZnVXRpbHNzcQB+AAxGaG4JdAAIdG9TdHJpbmdzcQB+AAy7LAW3dAACIT1zcQB+AAyt/FdFdAAIZ2V0Q2xhc3NzcQB+AAwLcXjYdAACbmVzcQB+AAxOQAogdAACZXFzcQB+AAx/fErRdAACIyNzcQB+AAzsODaMdAAIZmluYWxpemVzcQB+AAxEpCosdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBBeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAOcmVndXAuU3ZnVXRpbHN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFlzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQUwACWluaGVyaXRlZHEAfgBBTAAHcGFyZW50c3EAfgBBeHEAfgBec3EAfgBZdXEAfgA8AAAAAHNxAH4AWXVxAH4APAAAAABzcQB+AFl1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AF10AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AF1zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AHZ0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHdzcQB+AGp0AANBbnlzcQB+AG5zcQB+AHF1cQB+AHQAAAACc3EAfgB2dAAFc2NhbGFxAH4AfXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABXJlZ3Vwc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFbonVZYnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADkvVXNlcnMvSm9zaC9zY2FsYXByb2plY3RzL3JlZ3VwL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRYlas5YO/lXAm3EhSOjAz+YS5DOA==
 external apis:
 0 items
 source infos:
-2 items
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/RegNode.scala -> 
+3 items
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala -> 
 AAAAAAAAAAA=
-/Users/Josh/scalaprojects/regup/src/main/scala/regup/chariter.scala -> 
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgobj.scala -> 
+AAAAAAAAAAA=
+/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala -> 
 AAAAAAAAAAA=
 compilations:
-4 items
+10 items
 0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW5hMcY91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9Kb3NoL3NjYWxhcHJvamVjdHMvcmVndXAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
 1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW5hYBId1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9Kb3NoL3NjYWxhcHJvamVjdHMvcmVndXAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
 2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW5l3p251cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9Kb3NoL3NjYWxhcHJvamVjdHMvcmVndXAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
 3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW5l8e8l1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9Kb3NoL3NjYWxhcHJvamVjdHMvcmVndXAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW6H4yjB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9Kb3NoL3NjYWxhcHJvamVjdHMvcmVndXAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW6H6Vft1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9Kb3NoL3NjYWxhcHJvamVjdHMvcmVndXAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+6 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW6Jog/51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9Kb3NoL3NjYWxhcHJvamVjdHMvcmVndXAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+7 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW6Js3IF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9Kb3NoL3NjYWxhcHJvamVjdHMvcmVndXAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+8 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW6Jzm/51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9Kb3NoL3NjYWxhcHJvamVjdHMvcmVndXAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+9 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW6J1WWJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9Kb3NoL3NjYWxhcHJvamVjdHMvcmVndXAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
