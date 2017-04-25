@@ -78,5 +78,5 @@ case class BezierTo(x1:Int, y1:Int, x2:Int, y2:Int, x:Int, y:Int, next:Path = Cl
   * @return A path component for Quadratic curves
   */
 case class QuadraticTo(x1:Int, y1:Int, x:Int, y:Int, next:Path = ClosePath()) extends Path {
-	override def toString(): String =  s"C $x1 $y1 $x $y ${next}"; 
+	override def toString(): String =  s"Q $x1 $y1 $x $y ${next}"; 
 }

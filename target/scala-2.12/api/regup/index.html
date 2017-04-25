@@ -89,6 +89,14 @@
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../index.html" class="extype" name="_root_">root</a></dd></dl></div>
     </li><li class="current-entities indented1">
                         <span class="separator"></span>
+                        <a class="class" href="BezierTo.html" title="Acts as a Bezier Curve,
+Compiles to C x1 y1, x2 y2, x y,"></a>
+                        <a href="BezierTo.html" title="Acts as a Bezier Curve,
+Compiles to C x1 y1, x2 y2, x y,">
+                          BezierTo
+                        </a>
+                      </li><li class="current-entities indented1">
+                        <span class="separator"></span>
                         <a class="class" href="ClosePath.html" title="Acts as a terminating path
 Compiles to Z
 "></a>
@@ -141,6 +149,14 @@ Uses case classes to act as an immutable stream of an SVG path
                         </a>
                       </li><li class="current-entities indented1">
                         <span class="separator"></span>
+                        <a class="class" href="QuadraticTo.html" title="Acts as a Quadratic Curve,
+Compiles to Q x1 y1, x y,"></a>
+                        <a href="QuadraticTo.html" title="Acts as a Quadratic Curve,
+Compiles to Q x1 y1, x y,">
+                          QuadraticTo
+                        </a>
+                      </li><li class="current-entities indented1">
+                        <span class="separator"></span>
                         <a class="class" href="RHLineTo.html" title="Acts as a relative Horizontal lineto,
 Compiles to h (x),
 Always travels along x-axis,
@@ -183,8 +199,14 @@ Has type method
                         </a>
                       </li><li class="current-entities indented1">
                         <span class="separator"></span>
-                        <a class="object" href="SvgUtils$.html" title=""></a>
-                        <a href="SvgUtils$.html" title="">
+                        <a class="class" href="SvgSynthesizer.html" title="A layer of abstraction over the individual path classes."></a>
+                        <a href="SvgSynthesizer.html" title="A layer of abstraction over the individual path classes.">
+                          SvgSynthesizer
+                        </a>
+                      </li><li class="current-entities indented1">
+                        <span class="separator"></span>
+                        <a class="object" href="SvgUtils$.html" title="Houses methods to wrap Path objects in xml tags for SVG formatting"></a>
+                        <a href="SvgUtils$.html" title="Houses methods to wrap Path objects in xml tags for SVG formatting">
                           SvgUtils
                         </a>
                       </li><li class="current-entities indented1">
@@ -262,7 +284,28 @@ Always travels along y-axis
 
         <div id="types" class="types members">
               <h3>Type Members</h3>
-              <ol><li name="regup.ClosePath" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+              <ol><li name="regup.BezierTo" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="BezierToextendsPathwithProductwithSerializable"></a><a id="BezierTo:BezierTo"></a>
+      <span class="permalink">
+      <a href="../regup/index.html#BezierToextendsPathwithProductwithSerializable" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a title="Acts as a Bezier Curve,
+Compiles to C x1 y1, x2 y2, x y," href="BezierTo.html">
+              <span class="name">BezierTo</span>
+            </a><span class="params">(<span name="x1">x1: <span class="extype" name="scala.Int">Int</span></span>, <span name="y1">y1: <span class="extype" name="scala.Int">Int</span></span>, <span name="x2">x2: <span class="extype" name="scala.Int">Int</span></span>, <span name="y2">y2: <span class="extype" name="scala.Int">Int</span></span>, <span name="x">x: <span class="extype" name="scala.Int">Int</span></span>, <span name="y">y: <span class="extype" name="scala.Int">Int</span></span>, <span name="next">next: <a href="Path.html" class="extype" name="regup.Path">Path</a> = <span class="symbol">ClosePath()</span></span>)</span><span class="result"> extends <a href="Path.html" class="extype" name="regup.Path">Path</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      
+      <p class="shortcomment cmt">Acts as a Bezier Curve,
+Compiles to C x1 y1, x2 y2, x y,</p><div class="fullcomment"><div class="comment cmt"><p>Acts as a Bezier Curve,
+Compiles to C x1 y1, x2 y2, x y,</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p>A path component for Bezier curves</p></dd></dl></div>
+    </li><li name="regup.ClosePath" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="ClosePathextendsPathwithProductwithSerializable"></a><a id="ClosePath:ClosePath"></a>
       <span class="permalink">
       <a href="../regup/index.html#ClosePathextendsPathwithProductwithSerializable" title="Permalink">
@@ -374,6 +417,27 @@ Uses case classes to act as an immutable stream of an SVG path
       <p class="shortcomment cmt">Path Parent Class
 Uses case classes to act as an immutable stream of an SVG path
 </p>
+    </li><li name="regup.QuadraticTo" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="QuadraticToextendsPathwithProductwithSerializable"></a><a id="QuadraticTo:QuadraticTo"></a>
+      <span class="permalink">
+      <a href="../regup/index.html#QuadraticToextendsPathwithProductwithSerializable" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a title="Acts as a Quadratic Curve,
+Compiles to Q x1 y1, x y," href="QuadraticTo.html">
+              <span class="name">QuadraticTo</span>
+            </a><span class="params">(<span name="x1">x1: <span class="extype" name="scala.Int">Int</span></span>, <span name="y1">y1: <span class="extype" name="scala.Int">Int</span></span>, <span name="x">x: <span class="extype" name="scala.Int">Int</span></span>, <span name="y">y: <span class="extype" name="scala.Int">Int</span></span>, <span name="next">next: <a href="Path.html" class="extype" name="regup.Path">Path</a> = <span class="symbol">ClosePath()</span></span>)</span><span class="result"> extends <a href="Path.html" class="extype" name="regup.Path">Path</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      
+      <p class="shortcomment cmt">Acts as a Quadratic Curve,
+Compiles to Q x1 y1, x y,</p><div class="fullcomment"><div class="comment cmt"><p>Acts as a Quadratic Curve,
+Compiles to Q x1 y1, x y,</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p>A path component for Quadratic curves</p></dd></dl></div>
     </li><li name="regup.RHLineTo" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="RHLineToextendsPathwithProductwithSerializable"></a><a id="RHLineTo:RHLineTo"></a>
       <span class="permalink">
@@ -467,6 +531,26 @@ Has type method
       </span>
       
       <p class="shortcomment cmt">Specifies SVG Path structure</p>
+    </li><li name="regup.SvgSynthesizer" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="SvgSynthesizerextendsAnyRef"></a><a id="SvgSynthesizer:SvgSynthesizer"></a>
+      <span class="permalink">
+      <a href="../regup/index.html#SvgSynthesizerextendsAnyRef" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a title="A layer of abstraction over the individual path classes." href="SvgSynthesizer.html">
+              <span class="name">SvgSynthesizer</span>
+            </a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      
+      <p class="shortcomment cmt">A layer of abstraction over the individual path classes.</p><div class="fullcomment"><div class="comment cmt"><p>A layer of abstraction over the individual path classes.
+Allows mutable and growable SVG paths.
+</p></div></div>
     </li><li name="regup.VLineTo" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="VLineToextendsPathwithProductwithSerializable"></a><a id="VLineTo:VLineTo"></a>
       <span class="permalink">
@@ -511,12 +595,12 @@ Always travels along y-axis
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <a title="" href="SvgUtils$.html">
+        <a title="Houses methods to wrap Path objects in xml tags for SVG formatting" href="SvgUtils$.html">
               <span class="name">SvgUtils</span>
             </a>
       </span>
       
-      
+      <p class="shortcomment cmt">Houses methods to wrap Path objects in xml tags for SVG formatting</p>
     </li>
               </ol>
             </div>
