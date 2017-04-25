@@ -10,4 +10,4 @@ Regup is a scala package built with sbt. You can find the package under `src/mai
 
 The documentation can be found here.
 
-Regup makes drawing SVG paths and shapes easy. You can treat SVG as data and other abstractions
+Regup makes drawing SVG paths and shapes easy. You can treat SVG as data and other abstractions. You can also synthesize SVG via continous calls of a Char and array of integers to represent path elements.
