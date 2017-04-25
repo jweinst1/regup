@@ -2,34 +2,43 @@
 [0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
 [0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] 	modified: Set(/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set(/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala, /Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala, /Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala)[0m
-[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/Josh/scalaprojects/regup/target/scala-2.12/classes...[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala, /Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala, /Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 3 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 3 Scala sources to /Users/Josh/scalaprojects/regup/target/scala-2.12/classes...[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.12.2[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.12.2[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 5b1fddd3, interfacing (CompilerInterface) with Scala compiler version 2.12.2[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 5662c8b4, interfacing (CompilerInterface) with Scala compiler version 2.12.2[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes:/Users/Josh/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/Users/Josh/scalaprojects/regup/target/scala-2.12/classes[0m
-[0m[[0mdebug[0m] [0mScala compilation took 8.994501308 s[0m
+[0m[[0mdebug[0m] [0mScala compilation took 9.242063507 s[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidating /Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala...[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala...[0m
 [0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] The /Users/Josh/scalaprojects/regup/src/main/scala/regup/path.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	notify, x, wait, copy$default$2, $asInstanceOf, copy$default$5, productArity, BezierTo, equals, y, asInstanceOf, synchronized, $isInstanceOf, RHLineTo, RVLineTo, canEqual, copy$default$4, x2, productPrefix, notifyAll, isInstanceOf, <init>, y1, ==, clone, copy$default$7, $init$, next, copy$default$3, copy, y2, x1, toString, !=, getClass, copy$default$1, copy$default$6, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, x, wait, copy$default$2, $asInstanceOf, copy$default$5, productArity, equals, y, asInstanceOf, synchronized, $isInstanceOf, canEqual, copy$default$4, productPrefix, notifyAll, isInstanceOf, <init>, y1, ==, clone, $init$, next, copy$default$3, copy, x1, toString, !=, getClass, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode, QuadraticTo.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala: Set(<init>, toString)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /Users/Josh/scalaprojects/regup/src/main/scala/regup/svgutil.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	wrapPath.[0m
 [0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
 [0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
 [0m[[0mdebug[0m] [0m[naha] 	Set()[0m

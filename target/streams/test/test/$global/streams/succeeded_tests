@@ -1,9 +1,9 @@
 #Successful Tests
-#Mon Apr 24 17:32:25 PDT 2017
+#Mon Apr 24 18:23:31 PDT 2017
 regup.HelloSpec=1492908858552
 regup.EndSpec=1492928755788
-regup.HLineTest=1493080345375
+regup.HLineTest=1493083411160
 regup.IterTest=1492928755759
-regup.WrapTest=1493080345382
-regup.LineTest=1493080345370
-regup.BezierTest=1493080345371
+regup.WrapTest=1493083411167
+regup.LineTest=1493083411160
+regup.BezierTest=1493083411160
