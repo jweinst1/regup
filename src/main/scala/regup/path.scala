@@ -64,3 +64,11 @@ case class RVLineTo(y:Int, next:Path = ClosePath()) extends Path {
 case class RHLineTo(x:Int, next:Path = ClosePath()) extends Path {
 	override def toString(): String =  s"h $x ${next}"; 
 }
+
+/** Acts as a Bezier Curve,
+  * Compiles to C x1 y1, x2 y2, x y,
+  * @return A path component for Bezier curves
+  */
+case class BezierTo(x1:Int, y1:Int, x2:Int, y2:Int, x:Int, y:Int, next:Path = ClosePath()) extends Path {
+	override def toString(): String =  s"C $x1 $y1 $x2 $y2 $x $y ${next}"; 
+}

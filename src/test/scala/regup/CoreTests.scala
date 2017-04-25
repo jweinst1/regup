@@ -22,3 +22,10 @@ class HLineTest extends FlatSpec {
     assert(f.toString == "H 50 L 3 3 Z");
   }
 }
+
+class BezierTest extends FlatSpec {
+  "The BezierTo class" should "compile to C x1 y1, x2 y2, x y" in {
+    val f = regup.BezierTo(2,2,3,4,8,8, regup.ClosePath());
+    assert(f.toString == "C 2 2 3 4 8 8 Z");
+  }
+}
