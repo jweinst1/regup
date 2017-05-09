@@ -1,3 +1,1 @@
-*.html linguist-language=Scala
-*.css linguist-language=Scala
-*.js linguist-language=Scala
+target/* linguist-vendored
